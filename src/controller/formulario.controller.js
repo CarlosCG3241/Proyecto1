@@ -1,6 +1,5 @@
 // /controllers/formulario.controller.js
-import { pool } from '../models/db.js'; // Asegúrate de que la conexión a la base de datos esté correctamente configurada
-
+import { pool } from '../models/db.js'; 
 export const getFormulario = async (req, res) => {
     const { username, password } = req.body;
 
