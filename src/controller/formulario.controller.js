@@ -14,3 +14,6 @@ export const getFormulario = async (req, res) => {
         res.status(500).json({ error: 'Error al insertar los datos', details: error.message });
     }
 };
+
+
+
